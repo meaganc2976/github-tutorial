@@ -23,7 +23,8 @@ You need to connect your local and your remote repository so you will be able to
 
 * In order to connect the two, you need to :
   * Go into github
-  * Click on the profile icon on the top right
+  * Click on the profile icon on the top right and click on settings
+  * Click on 
 
 
 **3.** 
