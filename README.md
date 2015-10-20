@@ -19,8 +19,18 @@ _by Meagan Carioti_
 
 ---
 ## Repository Setup
+* In order to set up your repository, you would first, `cd` into the folder or directory that you want to work on, and then typ in `git init`.
+
+ After typing this in, you should see something like this:
+
+  `Initialized empty Git repository in /home/ubuntu/workspace/test-repo/.git/`
+
+* `git init` is a command that starts up or sets up git. It allows you to use git. Once this is typed in, the directory will now turn into
+* something called a repository, which has verison control and will now keep track of all the changes you make.
+  
 
 
 
 ---
 ## Workflow & Commands
+
