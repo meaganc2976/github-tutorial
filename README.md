@@ -14,8 +14,17 @@ _by Meagan Carioti_
 
 ---
 ## Initial Setup
+**1.** Go to [Github website](http://www.github.com) and sign up for a free account
+
+**2.** 
+
+* Now you have to connect your github to your local repository, for example, your repository on nitrous or cloud9. 
+You need to connect your local and your remote repository so you will be able to push your changes up to github to visually see and share your work.
+
+* So you
 
 
+**3.** 
 
 ---
 ## Repository Setup
@@ -26,7 +35,9 @@ _by Meagan Carioti_
   `Initialized empty Git repository in /home/ubuntu/workspace/test-repo/.git/`
 
 * `git init` is a command that starts up or sets up git. It allows you to use git. Once this is typed in, the directory will now turn into
-* something called a repository, which has verison control and will now keep track of all the changes you make.
+ something called a repository, which has verison control and will now keep track of all the changes you make.
+
+* You can now create a file to work on. First, you have to add it to the stage to be commited. The stage is an 
   
 
 
