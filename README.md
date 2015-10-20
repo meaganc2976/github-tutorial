@@ -21,7 +21,9 @@ _by Meagan Carioti_
 * Now you have to connect your github to your local repository, for example, your repository on nitrous or cloud9. 
 You need to connect your local and your remote repository so you will be able to push your changes up to github to visually see and share your work.
 
-* So you
+* In order to connect the two, you need to :
+  * Go into github
+  * Click on the profile icon on the top right
 
 
 **3.** 
