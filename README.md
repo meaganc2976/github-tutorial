@@ -29,7 +29,12 @@ to github to visually see and share your work.
   * Go to [Github](http://www.github.com)
   * Click on the profile icon on the top right and click on settings
   * Click on the tab labeled SSH key and add an SSH key (The title will be cloud 9)
-  * Now paste
+  * Paste the SSH key in the box underneath the title
+  * Now go into your cloud 9 and type in the command line: `ssh -T git@github.com`
+   If you did it correctly, you should see something like this:
+`Hi [YOUR USERNAME]! You've successfully authenticated, but GitHub does not provide shell access.`
+
+We need to type this in the command line because it confirms the connection made between the local and remote, or the connection between cloud9 and github.
 
 
 **3.** 
