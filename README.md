@@ -14,17 +14,22 @@ _by Meagan Carioti_
 
 ---
 ## Initial Setup
-**1.** Go to [Github website](http://www.github.com) and sign up for a free account
+**1.** Go to [Github](http://www.github.com) and sign up for a free account. 
 
-**2.** 
-
-* Now you have to connect your github to your local repository, for example, your repository on nitrous or cloud9. 
-You need to connect your local and your remote repository so you will be able to push your changes up to github to visually see and share your work.
+**2.**  Now you have to connect your github to your local 
+repository, for example, your
+repository on nitrous or cloud9. 
+You need to connect your local and your remote repository so you will be able to push your changes up
+to github to visually see and share your work.
 
 * In order to connect the two, you need to :
-  * Go into github
+  * Go to [cloud 9](c9.io)
+  * Got to settings and click on the tab labeled SSH key
+  * copy the SSH key
+  * Go to [Github](http://www.github.com)
   * Click on the profile icon on the top right and click on settings
-  * Click on 
+  * Click on the tab labeled SSH key and add an SSH key (The title will be cloud 9)
+  * Now paste
 
 
 **3.** 
