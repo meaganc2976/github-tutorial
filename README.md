@@ -31,13 +31,24 @@ to github to visually see and share your work.
   * Click on the tab labeled SSH key and add an SSH key (The title will be cloud 9)
   * Paste the SSH key in the box underneath the title
   * Now go into your cloud 9 and type in the command line: `ssh -T git@github.com`
-   If you did it correctly, you should see something like this:
-`Hi [YOUR USERNAME]! You've successfully authenticated, but GitHub does not provide shell access.`
+  
+(We need to type this in the command line because it confirms the connection made between the local and remote, or the connection between cloud9 and github.)
 
-We need to type this in the command line because it confirms the connection made between the local and remote, or the connection between cloud9 and github.
+  
+  If you did it correctly, you should see something like this:
 
 
-**3.** 
+    `Hi [YOUR USERNAME]! You've successfully authenticated, but GitHub does not provide shell access.`
+
+ 
+**3.**  `Git config --global user.name "First Last"`
+or
+`git config --global user.email "Your Email"` is a 
+command that sets up your username or email
+and applies it to everything, or in other words, your local repo now knows your default information and will remember your username and email. You are essentially setting up your information globally and telling git what your username or email is.
+
+
+
 
 ---
 ## Repository Setup
@@ -50,11 +61,41 @@ We need to type this in the command line because it confirms the connection made
 * `git init` is a command that starts up or sets up git. It allows you to use git. Once this is typed in, the directory will now turn into
  something called a repository, which has verison control and will now keep track of all the changes you make.
 
-* You can now create a file to work on. First, you have to add it to the stage to be commited. The stage is an 
-  
+* You can now create a file to work on.
+First, you have to add it. To add, you just type in `git add [filename]`. This puts that file on a stage, or imaginary place, to be commited. We have to add a file in order to commit it. You type in the command line `git commit -m "message"` to commit that file or save that change/ save the file just the way it is at that very moment. By commiting the file, we are keeping track of the changes we make, which is helpful when editing, collaborating, and looking for bugs or errors.
+Also, your message when commiting should be present tense and specific because when looking back on all the changes you did, you will only see the message you create.
+
+* Now you have to create a new repository on Github by going to the top right, clicking on the plus sign, 
+* and then select new repository. The name of your repo on github MUST MATCH THE NAME OF YOUR REPO ON YOUR CLOUD 9 (P.S. Repo is like a directory. First you make the folder or directory in your cloud9, then, after git init, the directory becomes a repository and changes will then be tracked)
+  * Next, click on SSH 
+  * You will see two lines of code. Copy and paste each of them, one at a time. 
+    * The line of code should start off like this: `git remote add origin git@github.com/`
+  and the second line of code should look like this: `git push -u origin master`
+ . This is sets github as your default or place you want to send your changes to. Now, you only have to type `git push` in the command line and it will automatically know to push or send your commit to your github repository
+* Your remote repository is the repository you created on github and your local repository is the one you created on cloud 9. 
+You set up a connection between your local and remote. 
 
 
 
 ---
 ## Workflow & Commands
+
+* `git status` is an extremely important command that should be used very often. It tells you what you have added to the stage or what needs to be commited. Frequently typing this command will help make sure that you are doing everything correctly and helps you make sure that you commit everything you need to.
+* `git add` is the command that puts the file on the stage to be ready to commmit. We have to add a file in order to be able to commit it. You should use this command every few changes you make to a file, that way you can commit and save each change 
+* `git commit` is the command that takes a snapshot of the code or saves that specific change you made
+* `git push` pushes your commit or your change you just made to github, so that when you go to Github.com, you can visually see your work or all the changes you made. It essentially sends changes from your local to your remote repo.
+
+---
+## Other
+
+* MD Syntax
+
+  * We use MD Syntax to format text or format the file and make it look neat, presentable, and organzied
+
+   * To make text **bold** you need to put two astericks `**` behind and in front of the word you want to be bold
+   * To make text _italicized_ you need to put one underscore `_` in front of and behind the word 
+   * To make a heading 
+   You put hashtags in front of the word. The more hashtags you use, the smaller the heading. If you use one hashtag, that is the biggest heading.
+   * To include a url you would put `[text you want to appear](url)` For example, `[google](google.com)` creates this: [google](google.com)
+
 
