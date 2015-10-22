@@ -80,7 +80,7 @@ You set up a connection between your local and remote.
 ---
 ## Workflow & Commands
 
-* `git status` is an extremely important command that should be used very often. It tells you what you have added to the stage or what needs to be commited. Frequently typing this command will help make sure that you are doing everything correctly and helps you make sure that you commit everything you need to.
+* `git status` is an extremely important command that should be used very often. It tells you what you have added to the stage or what needs to be commited. Frequently typing this command will help make sure that you are doing everything correctly and helps you make sure that you commit everything you need to. When you have committed everything you needed to, it should say something like "nothing to commit" after you type in git status
 * `git add` is the command that puts the file on the stage to be ready to commmit. We have to add a file in order to be able to commit it. You should use this command every few changes you make to a file, that way you can commit and save each change 
 * `git commit` is the command that takes a snapshot of the code or saves that specific change you made
 * `git push` pushes your commit or your change you just made to github, so that when you go to Github.com, you can visually see your work or all the changes you made. It essentially sends changes from your local to your remote repo.
