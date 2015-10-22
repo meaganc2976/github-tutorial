@@ -4,9 +4,9 @@ _by Meagan Carioti_
 
 ---
 ## Git vs. GitHub
-* Difference between Git and Github:
-  * Git is version control. Git is a tool that keeps track of changes.
-  * Github uses git or needs it to work, and is a website or cloud that stores all of the code. It is also used for collaboration with others.
+* Difference between **Git** and **Github**:
+  * Git is _version control_. Git is a tool that keeps track of changes.
+  * Github uses git or needs it to work, and is a _website or cloud_ that stores all of the code. It is also used for collaboration with others.
         
 * How you use it: 
  * In order to use Github, you would go to the website github.com and set up an account. There you can visually see your work or your changes. 
@@ -19,7 +19,7 @@ _by Meagan Carioti_
 **2.**  Now you have to connect your github to your local 
 repository, for example, your
 repository on nitrous or cloud9. 
-You need to connect your local and your remote repository so you will be able to push your changes up
+You need to connect your **local** and your remote **repository** so you will be able to push your changes up
 to github to visually see and share your work.
 
 * In order to connect the two, you need to :
@@ -66,7 +66,7 @@ First, you have to add it. To add, you just type in `git add [filename]`. This p
 Also, your message when commiting should be present tense and specific because when looking back on all the changes you did, you will only see the message you create.
 
 * Now you have to create a new repository on Github by going to the top right, clicking on the plus sign, 
-*and then select new repository. The name of your repo on github MUST MATCH THE NAME OF YOUR REPO ON YOUR CLOUD 9 (P.S. Repo is like a directory. First you make the folder or directory in your cloud9, then, after git init, the directory becomes a repository and changes will then be tracked)
+and then select new repository. The name of your repo on github **MUST MATCH THE NAME OF YOUR REPO ON YOUR CLOUD 9** (P.S. Repo is like a directory. First you make the folder or directory in your cloud9, then, after git init, the directory becomes a repository and changes will then be tracked)
   * Next, click on SSH 
   * You will see two lines of code. Copy and paste each of them, one at a time. 
     * The line of code should start off like this: `git remote add origin git@github.com/`
@@ -86,16 +86,14 @@ You set up a connection between your local and remote.
 * `git push` pushes your commit or your change you just made to github, so that when you go to Github.com, you can visually see your work or all the changes you made. It essentially sends changes from your local to your remote repo.
 
 ---
-## Other
+## Collaboration
 
-* MD Syntax
-
-  * We use MD Syntax to format text or format the file and make it look neat, presentable, and organzied
-
-   * To make text **bold** you need to put two astericks `**` behind and in front of the word you want to be bold
-   * To make text _italicized_ you need to put one underscore `_` in front of and behind the word 
-   * To make a heading 
-   You put hashtags in front of the word. The more hashtags you use, the smaller the heading. If you use one hashtag, that is the biggest heading.
-   * To include a url you would put `[text you want to appear](url)` For example, `[google](google.com)` creates this: [google](google.com)
-
-
+* Go to another person's repo that you want to work on _(on github)_
+* Click the button fork near the top of the page
+* Copy and paste url (_located on the right side of the page_). Make sure SSH is selected
+  * You just forked someone's repo. This means that you sent or made a copy of a project from someone else's remote repository to your own remote repository (**Fork= remote to remote**)
+* Go to your command line and type `git clone [past url here]` 
+  * You just cloned someone else's project, which means you made a copy of a project from your remote repo to your local repo, so you can work on it (**Clone= remote to local**)
+* Now you can make whatever changes your heart desires
+* On Github, when you click on your last commit, you can click a button called pull request. This sends the original owner of that project teh change you made. The change does not go to their project automatically. They can see what change you requested and can either accept or deny. 
+* `Git pull` pulls down any changes another person made. It pulls it down from your remote repository to local.
