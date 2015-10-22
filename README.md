@@ -66,7 +66,7 @@ First, you have to add it. To add, you just type in `git add [filename]`. This p
 Also, your message when commiting should be present tense and specific because when looking back on all the changes you did, you will only see the message you create.
 
 * Now you have to create a new repository on Github by going to the top right, clicking on the plus sign, 
-* and then select new repository. The name of your repo on github MUST MATCH THE NAME OF YOUR REPO ON YOUR CLOUD 9 (P.S. Repo is like a directory. First you make the folder or directory in your cloud9, then, after git init, the directory becomes a repository and changes will then be tracked)
+*and then select new repository. The name of your repo on github MUST MATCH THE NAME OF YOUR REPO ON YOUR CLOUD 9 (P.S. Repo is like a directory. First you make the folder or directory in your cloud9, then, after git init, the directory becomes a repository and changes will then be tracked)
   * Next, click on SSH 
   * You will see two lines of code. Copy and paste each of them, one at a time. 
     * The line of code should start off like this: `git remote add origin git@github.com/`
